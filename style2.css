@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.main{
+   color: #000;
+   background: #ffe5b4;
+}
+
+.navbar-nav{
+    color: #000;
+}
+
+.nav-item .dropdown-item{
+    background: #ffe5b4;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background: #ffe5b4;
+}
+
+.unread {
+	cursor: pointer;
+	background-color: #f4f4f4;
+}
+.messages-box {
+	max-height: 28rem;
+	overflow: auto;
+}
+.online-circle {
+	border-radius: 5rem;
+	width: 5rem;
+	height: 5rem;
+}
+.messages-title {
+	float: right;
+	margin: 0px 5px;
+}
+.message-img {
+	float: right;
+	margin: 0px 5px;
+}
+.message-header {
+	text-align: right;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.text-editor {
+	min-height: 18rem;
+}
+.messages-list li.messages-you .messages-title {
+	float: left;
+}
+.messages-list li.messages-you .message-img {
+	float: left;
+}
+.messages-list li.messages-you p {
+	float: left;
+	text-align: left;
+}
+.messages-list li.messages-you .message-header {
+	text-align: left;
+}
+.messages-list li p {
+	max-width: 60%;
+	padding: 5px;
+	border: #e6e7e9 1px solid;
+}
+.messages-list li.messages-me p {
+	float: right;
+}
+.ql-editor p {
+	font-size: 1rem;
+}  

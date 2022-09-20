@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script>
+		var seconds=0;
+		function displayseconds()
+		{		
+			seconds +=1;
+			document.getElementById("secondsdisplay").innerText="Do not refresh this page... "+seconds+" Seconds";
+		}
+		setInterval(displayseconds,1000);
+
+		function redirectpage()
+		{
+			  window.location='index-5.php';
+		}
+		setTimeout('redirectpage()',4000);
+	</script>
+	<style>
+		.secondsdisplay{
+			justify-content: center;
+			align-items: center;
+			background: #ffe5b4;
+		}
+	</style>
+</head>
+  <body bgcolor=#ffe5b4>
+	<center>
+	<h2>Transaction in Process<h2>
+	<div id="secondsdisplay" class="secondsdisplay"></div>
+	<img src="page\source.gif" height="100px" width="100px"/>
+	</center>
+  </body>
+</html>
